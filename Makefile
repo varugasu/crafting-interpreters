@@ -1,5 +1,5 @@
-build-jlox:
+build-clox:
 	@mkdir -p build
 	@cd build && cmake .. && make
-	@cp build/jlox .
+	@cp build/clox .
 
